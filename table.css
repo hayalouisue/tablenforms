@@ -1,0 +1,56 @@
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    font-family: Tahoma, sans-serif;
+    border: 5px solid #303C6C;
+    
+}
+
+th, td {
+    padding: 3px;
+    text-align: left;
+    border: 1px solid #303C6C;
+}
+
+th {
+    background-color: #8370a6;
+    color: white;
+}
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px 0;
+    color: black;
+    border-bottom: 10px solid #303C6C;
+}
+
+.payto {
+    background-color: #5db996
+}
+
+.customer {
+    background-color: #5db996;
+}
+
+.subtotal, .tax, .grandtotal {
+    font-weight: bold;
+}
+
+.tax, .grandtotal {
+    text-align: left;
+}
+
+.qty {
+    width: 0px;
+}
+
+.at {
+    width: 50px;
+    text-align: center;
+}
+
+.firstRow, .secondRow, .thirdRow {
+    background-color: #fff8e2;
+}

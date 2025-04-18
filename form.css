@@ -1,0 +1,46 @@
+table {
+    border: 5px solid #303C6C;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+td, th {
+    border-bottom: 1px solid #B4DFE5;
+    padding: 15px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: navy;
+    font-size: 1.125em;
+}
+
+thead tr {
+    background-color: #B4DFE5;
+}
+
+input[type="text"], textarea, select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #B4DFE5;
+    color: navy;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.125em;
+}
+
+textarea {
+    resize: none;
+}
